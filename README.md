@@ -1,2 +1,19 @@
 # CopilotStudio
 This Repository gives you the basics of understanding Copilot Architecture and Delve into Enterprise use cases to implement custom Copilot Chatbots
+
+A copilot is like a smart assistant that uses AI to communicate with people. It can answer simple questions and manage more complex issues. Copilot Studio helps us build custom AI assistant chatbots tailored to enterprise needs. These copilots can utilize either generative AI models or traditional NLP models, depending on the requirements.
+![Studio1](https://github.com/user-attachments/assets/f43ed1d7-363f-4a7b-aaa4-450312ac6e79)
+
+These custom AI assistants can be deployed across multiple channels, such as Microsoft Teams, Slack, Skype, and customer websites. Additionally, they can be integrated with various enterprise systems, such as Dynamic 365, Salesforce, ServiceNow, and many more, allowing seamless handoffs of chat sessions to live agents or other Copilot chatbots.
+![Studio4](https://github.com/user-attachments/assets/8b148edd-a81f-4a23-a196-5d9c55b9a528)
+
+Copilot Studio uses plugin architecture: a plugin is a reusable code component designed to add specific functionality to a copilot. It enables a copilot to answer natural language queries, execute workflows, connect to external systems, or offer specialized guidance. A copilot itself is a conversational or user experience (UX)-based assistant that aids users in achieving their tasks and goals within a particular domain or application.
+
+We can use four types of plugins:
+Conversational plugin, Flow plugin, Prompt Plugin, Connector Plugin.
+
+![Studio5](https://github.com/user-attachments/assets/e46a848a-61c1-40fc-95a8-c189319d1f61)
+![Architecture](https://github.com/user-attachments/assets/a3650cbd-ad05-4db4-a898-3683574db6c7)
+
+Copilot Studio lets us choose between using generative AI or traditional AI. This flexibility means we can pick the right approach based on what we need. Generative AI can create new and unique content, like text or images, based on large or unstructured data. On the other hand, traditional AI uses structured data and models from Azure Language Services to handle tasks like translation, summarization, or answering questions based on existing information.
+![Studio6](https://github.com/user-attachments/assets/ab2ad515-48ce-49e9-8f48-a8eae9c87197)
